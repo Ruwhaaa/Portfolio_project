@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.portrait {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.cadre {
+    margin: 0;
+    height: 234px;
+    width: 15vw;
+}
+
+aside {
+    width: 15vw;
+    font-family: "Roboto", "Open-sans";
+    height: 100vh;
+    flex: 1;
+    background-color: #1D1E20;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0px 40px 0px;
+}
+
+.accueil {
+    display: inline-block;
+    height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.accueil:hover {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.a_propos {
+    display: inline-block;
+    height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.a_propos:hover {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.blog {
+    display: inline-block;
+    height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.blog:hover {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.contact {
+    display: inline-block;
+    height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.contact:hover {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 44vh;
+    width: 15vw;
+}
+
+.icone_rs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icone_rs>a>img {
+    width: 45px;
+    height: 30px;
+    max-width: auto;
+    height: auto;
+}
+.mentions_legales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mentions_legales>p {
+    font-size: 10px;
+    font-family: "Roboto";
+    color: #FFFFFF
+}
+
+.fond_site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85vw;
+    background-image: url("../image/montagne.jpg");
+}
+
+.titre {
+    z-index: 3;
+    color: #009FE3;
+    font-family: "Righteous";
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.sous_titre{
+    z-index: 3;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.filter {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15vw; 
+    background-color: black;
+    opacity: 0.4;
+    z-index: 2;
+}
+
+.filter_autre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15vw; 
+    background-color: #2C2D2F;
+    z-index: 2;
+}
+
+.formulaire {
+    margin: 0;
+    background-color: #1D1E20;
+    z-index: 2;
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+
+.user_name {
+    margin-top: 35px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.mail {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Roboto";
+
+}
+
+.message {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Roboto"
+
+}
+
+.bouton {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: "Roboto"
+}
